@@ -1,0 +1,13 @@
+# Update a github key
+
+library(usethis)
+# usethis set up for github
+use_git_config(user.name = "digipols-admin", user.email = "admin@digipols.com")
+
+# An updated PAT can be added by using this function and updating the PAT
+gitcreds::gitcreds_set()
+
+## In case github not working, this is the direct code:
+git push https://fmendez72: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@github.com/fmendez72/app_dust.git
+
+gitcreds::gitcreds_set()
