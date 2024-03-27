@@ -1,5 +1,5 @@
 ---
-title: "my_quarto_website"
+title: "My index page"
 ---
 
 This is a Quarto website.
