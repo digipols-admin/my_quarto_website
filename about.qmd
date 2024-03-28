@@ -12,7 +12,7 @@ This is a simple demonstration of generating a plot in an HTML document using Qu
 
 # Generating a Plot
 
-We will create a simple scatter plot using R's built-in `mtcars` dataset.
+We will create a simple ggplot graph using R's built-in `mtcars` dataset.
 
 ```{r}
 # Load necessary libraries
